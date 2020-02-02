@@ -1,0 +1,21 @@
+.border__radius {
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px #1038eb36;
+}
+
+.btn_phone {
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+  background-color: #0275d8;
+  color: white;
+  box-shadow: 1px 2px 3px #1038eb36;
+}
+
+.btn_phone:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  text-decoration: none;
+}
