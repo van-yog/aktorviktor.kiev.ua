@@ -101,8 +101,12 @@
   animation-fill-mode: forwards;
 }
 
-.test {
-  animation: fadeInLeft 4s;
+.fade-in-left {
+  animation: fadeInLeft 1.3s;
+}
+
+.fade-in-right {
+  animation: fadeInRight 1.3s;
 }
 
 @keyframes fadeIn {
