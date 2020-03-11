@@ -1,6 +1,21 @@
-.border__radius {
-  border-radius: 10px;
-  box-shadow: 1px 2px 3px #1038eb36;
+.op-7 {
+  opacity: 0.7;
+}
+
+.statistic-card {
+  background-color: rgba(199, 199, 199, 0.596);
+  box-shadow: 1px 1px 9px 4px rgba(146, 154, 152, 0.63);
+  transition: all 0.3 ease-in-out;
+}
+
+.about {
+  font-size: larger;
+  line-height: 2;
+}
+
+.statistic-card__count {
+  font-size: larger;
+  font-weight: bold;
 }
 
 .btn_phone {
@@ -24,205 +39,18 @@
   text-decoration: none;
 }
 
-.fade-1 {
-  opacity: 0;
-  animation: fadeIn 1s;
-  animation-fill-mode: forwards;
+.footer {
+  background-color: rgba(128, 128, 128, 0.253);
 }
 
-.fade-2 {
-  opacity: 0;
-  animation: fadeIn 2s;
-  animation-fill-mode: forwards;
+.youtube {
+  width: 1120px;
+  height: 630px;
 }
 
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 3s;
-  animation-fill-mode: forwards;
-}
-
-.fade-in1 {
-  opacity: 0;
-  animation: fadeIn 3s;
-  animation-delay: 0.2s;
-  animation-fill-mode: forwards;
-}
-
-.fade-in2 {
-  opacity: 0;
-  animation: fadeIn 3s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-}
-
-.fade-in3 {
-  opacity: 0;
-  animation: fadeIn 3s;
-  animation-delay: 0.6s;
-  animation-fill-mode: forwards;
-}
-
-.fade-in4 {
-  opacity: 0;
-  animation: fadeIn 3s;
-  animation-delay: 0.8s;
-  animation-fill-mode: forwards;
-}
-
-.fade-in5 {
-  opacity: 0;
-  animation: fadeIn 3s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
-}
-
-.fade-in-left {
-  animation: fadeInLeft 1.3s;
-}
-
-.fade-in-right {
-  animation: fadeInRight 1.3s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.93);
+@media (max-width: 768px) {
+  .youtube {
+    width: 400px;
+    height: 230px;
   }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.btn__phone-shake:hover {
-  animation: shake 0.6s;
-}
-
-@-webkit-keyframes shake {
-  from,
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    -webkit-transform: translate3d(-2px, 0, 0);
-    transform: translate3d(-2px, 0, 0);
-  }
-
-  20%,
-  40%,
-  60%,
-  80% {
-    -webkit-transform: translate3d(2px, 0, 0);
-    transform: translate3d(2px, 0, 0);
-  }
-}
-
-@-webkit-keyframes bounce {
-  from,
-  20%,
-  53%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  40%,
-  43% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0);
-  }
-
-  70% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -4px, 0);
-    transform: translate3d(0, -4px, 0);
-  }
-}
-
-@keyframes bounce {
-  from,
-  20%,
-  53%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  40%,
-  43% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0);
-  }
-
-  70% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -4px, 0);
-    transform: translate3d(0, -4px, 0);
-  }
-}
-
-.bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
-}
-
-@keyframes heartBeat {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  14% {
-    transform: scale(1.32);
-  }
-  28% {
-    transform: scale(1);
-  }
-  42% {
-    transform: scale(1.1);
-  }
-  70% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  99% {
-    opacity: 1;
-  }
-}
-
-.heartBeat {
-  animation: heartBeat 3s;
-  animation-fill-mode: forwards;
 }
