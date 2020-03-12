@@ -14,8 +14,9 @@
 }
 
 .statistic-card__count {
-  font-size: larger;
+  font-size: 25px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .btn_phone {
@@ -48,9 +49,25 @@
   height: 630px;
 }
 
+.youtube2 {
+  width: 530px;
+  height: 310px;
+}
+
+@media (max-width: 1024px) {
+  .youtube2 {
+    width: 400px;
+    height: 230px;
+  }
+}
+
 @media (max-width: 768px) {
   .youtube {
     width: 400px;
     height: 230px;
+  }
+  .youtube2 {
+    width: 360px;
+    height: 200px;
   }
 }
