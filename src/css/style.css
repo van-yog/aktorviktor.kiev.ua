@@ -1,0 +1,73 @@
+.op-7 {
+  opacity: 0.7;
+}
+
+.statistic-card {
+  background-color: rgba(199, 199, 199, 0.596);
+  box-shadow: 1px 1px 9px 4px rgba(146, 154, 152, 0.63);
+  transition: all 0.3 ease-in-out;
+}
+
+.about {
+  font-size: larger;
+  line-height: 2;
+}
+
+.statistic-card__count {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.btn_phone {
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+  background-color: #428bca;
+  color: white;
+  box-shadow: 1px 2px 3px #1038eb36;
+}
+
+.btn-background {
+  background-color: #428bca;
+}
+
+.btn_phone:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.box__shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social {
+  text-decoration: none;
+}
+
+.youtube {
+  width: 1120px;
+  height: 630px;
+}
+
+.youtube2 {
+  width: 530px;
+  height: 310px;
+}
+
+@media (max-width: 1024px) {
+  .youtube2 {
+    width: 400px;
+    height: 230px;
+  }
+}
+
+@media (max-width: 768px) {
+  .youtube {
+    width: 400px;
+    height: 230px;
+  }
+  .youtube2 {
+    width: 360px;
+    height: 200px;
+  }
+}
