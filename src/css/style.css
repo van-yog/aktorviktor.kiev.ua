@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .op-7 {
   opacity: 0.7;
 }
@@ -45,11 +49,13 @@
 }
 
 .youtube {
+  border: 0;
   width: 1120px;
   height: 630px;
 }
 
 .youtube2 {
+  border: 0;
   width: 530px;
   height: 310px;
 }
